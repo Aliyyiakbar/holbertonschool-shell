@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{if(/root/) {print; for(i=0;i<3;i++) {getline; print;}}}' /etc/passwd
