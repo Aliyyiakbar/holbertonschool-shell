@@ -1,37 +1,25 @@
-# Holberton School – Shell Basics
+# Holberton School – Shell
 
-This repository contains introductory Shell/Bash scripts for the Holberton School curriculum.
-The goal is to learn how the shell works, how to navigate the filesystem, and how to use basic command-line tools.
+This repository contains my Bash scripting projects for the Holberton School curriculum.
+It covers the basics of using the shell, working with permissions, handling I/O redirections,
+and using variables/expansions.
 
-# Project Structure
+## Requirements
 
-- basics/ &mdash; Introductory shell tasks (navigation, listing files, manipulating files, links, wildcards, etc.)
+- OS: Ubuntu 22.04 LTS (some projects use Ubuntu 20.04 LTS as specified)
+- All scripts start with: #!/bin/bash
+- All scripts are exactly 2 lines long
+- No backticks, &&, ||, or ;
+- All scripts are executable (chmod u+x)
+- Allowed editors: vi, vim, emacs
 
-Each script:
+## Projects
 
-- Starts with `#!/bin/bash`
+- basics — navigation, listing files, manipulating files, links, wildcards
+- permissions — chmod/chown/chgrp, users/groups, file permission modes
+- io_redirections_and_filters — redirections, pipes, filters (grep, wc, head, tail, etc.)
+- init_files_variables_and_expansions — aliases, variables, expansions, shell arithmetic
 
-- Is exactly 2 lines long
+## Author
 
-- Is executable
-
-# Requirements
-
-- Ubuntu 22.04 LTS
-
-- Allowed editors: `vi`, `vim`, `emacs` (I prefer `nano`, so that's what I use.)
-
-# Purpose
-
-This project introduces:
-
-- The shell and terminal
-- Basic commands (cd, ls, cp, mv, rm…)
-- File permissions
-- Links (hard & symbolic)
-- Wildcards
-- Man pages and help commands
-
----
-
-**Created by:** Aliyyiakbar Shirinli
+Aliyyiakbar Shirinli
