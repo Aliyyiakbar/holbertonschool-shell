@@ -36,6 +36,10 @@ This directory contains scripts that practice redirections, pipes, and classic c
 - 20. Without C, you would live in hiago — remove letters c and C
 - 21. esreveR — reverse input
 - 22. DJ Cut Killer — display users and their home directories sorted by username
+- 23. Empty casks — find all empty files and directories
+- 24. A gif is worth ten thousand words — list .gif files without extensions
+- 25. Acrostic — decode acrostics using first letters of each line
+- 26. The biggest fan — list the 11 most active hosts or IPs from TSV logs
 
 ## Usage
 
